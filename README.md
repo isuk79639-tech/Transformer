@@ -34,7 +34,7 @@ python train.py --epochs 50 --batch_size 32 --learning_rate 1e-4
 # 完整消融实验（每个配置训练10个epoch）
 python train.py --run_ablation --ablation_epochs 10
 # 完整敏感性分析（每个参数值训练10个epoch）
-python train.py --run_sensitivity --sensitivity_epochs 5
+python train.py --run_sensitivity --sensitivity_epochs 10
 ```
 
 ## 实验配置
@@ -43,4 +43,3 @@ python train.py --run_sensitivity --sensitivity_epochs 5
 单卡24GB 3090运行若干小时
 ```
 
-# Transformer
